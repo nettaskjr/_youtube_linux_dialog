@@ -1,0 +1,46 @@
+##########################################################
+tipos de caixa:
+--------------
+
+infobox.....: Informação somente aparece o botão OK
+
+yesno.......: Pergunta com botão yes e botao no
+    yes = 0
+    no  = 1
+    yeslabel, nolabel
+
+inputbox...: Aceita digitação
+
+passwordbox: Digitação de senha
+    insecure = mostra * para cada caracter
+
+>>> lembre-se de colocar o menu dentro de uma variável <<<
+>>> lembre-se de usar --stdout pois o comando vai ter retorno <<<
+menu.......: Menu de aplicação
+    0 0 0 = altura, largura, quantidade de itens a serem mostrados
+
+
+##########################################################
+comandos:
+---------
+
+
+
+
+##########################################################
+
+extras:
+-------
+
+para debugar shell script use: $ bash -x aa.sh
+
+
+
+
+no-shadow: tira a sombra
+defaultno: coloca o botão no como default em yesno
+
+
+
+
+
